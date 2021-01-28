@@ -19,6 +19,7 @@ export const ListToDo = () => {
     return (
         <div>
             Todos {
+                // eslint-disable-next-line
                 toDoList.map((todo)=>{
                 if(todo.done===false){
                 return <div key={todo.id}>
